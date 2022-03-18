@@ -1,0 +1,281 @@
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(2, 2, 20);
+    color: white;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid white;
+}
+
+.container div:first-child{
+    margin-left: 55px;
+}
+
+.container ul{
+    display: flex;
+}
+
+.container ul li a{
+    padding: 20px;
+    color: white;
+}
+
+.container ul li a:hover{
+    background-color: red;
+    border-radius: 20px;
+    transition: .5s;
+}
+
+.container div:last-child{
+    display: flex;
+    margin-right: 55px;
+}
+
+.container div:last-child a{
+    padding: 20px;
+}
+
+.container div:last-child a:hover{
+    background-color: red;
+    border-radius: 20px;
+    transition: .5s;
+}
+
+.section-one{
+    display: flex;
+    margin-top: 80px;
+    position: relative;
+}
+
+.section-one > img{
+    position: absolute;
+    top: 150px;
+    right: 550px;
+    width: 100px;
+    height: 100px;
+}
+
+.first_section-one{
+    width: 60%;
+    margin-left: 50px;
+}
+
+.first_section-one p:nth-child(1){
+    font-size: 18px;
+    color: rgb(99, 99, 29);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.first_section-one p:nth-child(2){
+    font-size: 60px;
+    margin: 25px 0;
+}
+
+.first_section-one p:nth-child(3){
+    color: rgb(160, 160, 204);
+}
+
+.first_section-one div{
+    margin-top: 50px;
+}
+
+.first_section-one div a{
+    padding: 10px 20px;
+    color: white;
+    border-radius: 20px;
+}
+
+.first_section-one div a:first-child{
+    background-color: rgb(83, 83, 2);
+}
+
+.first_section-one div a:hover{
+    background-color: red;
+    transition: .5s;
+}
+
+/* .second_section-one{
+    width: 40%;
+} */
+
+.second_section-one img{
+    float: right;
+    width: 600px;
+    height: 450px;
+}
+
+.section-two{
+    background-color: white;
+    color: black;
+    padding: 50px;
+}
+
+.section-two > p{
+    color: rgb(187, 64, 64);
+}
+
+.section-two > h1{
+    color: rgb(10, 10, 71);
+    margin: 20px 0;
+}
+
+.content-two{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.content-two h2{
+    margin: 20px 0 10px;
+}
+
+.section-three{
+    display: flex;
+    padding: 50px;
+    /* justify-content: space-between; */
+}
+
+
+.first_section-three img{
+    width: 400px;
+    height: 450px;
+}
+
+.second_section-three{
+    padding: 100px;
+}
+
+.second_section-three p{
+    color: rgb(93, 136, 8);
+    margin-bottom: 20px;
+}
+
+.section-four{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    color: black;
+}
+
+.first_section-four{
+    padding: 50px;
+}
+
+.first_section-four p{
+    color: rgb(156, 94, 94);
+}
+
+.first_section-four h2{
+    color: rgb(18, 18, 92);
+    margin: 40px 0;
+}
+
+.first_section-four div{
+    color: rgb(18, 18, 92);
+}
+
+.second_section-four{
+    margin-right: 20px;
+}
+
+.second_section-four img{
+    width: 400px;
+    height: 457px;
+}
+
+.third_section-four{
+    padding-right: 50px;
+}
+
+.third_section-four div:first-child{
+    margin-bottom: 5px;
+}
+
+.third_section-four img{
+    width: 400px;
+    height: 225px;
+}
+
+.section-five h2:first-child{
+    text-align: center;
+    padding: 30px 0;
+}
+
+.content-five{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+
+.content-five h3{
+    margin: 10px 0;
+}
+
+.content-five p{
+    margin-bottom: 50px;
+}
+
+.first_content-five{
+    border-bottom: 2px solid rgb(117, 147, 173);
+}
+
+.first_content-five img, .second_content-five img{
+    width: 600px;
+    height: 325px;
+}
+
+.second_content-five div:last-child{
+    margin-left: 30px;
+}
+
+.second_content-five div a{
+    padding: 10px 20px;
+    color: white;
+    border: 0.5px solid white;
+    border-radius: 20px;
+}
+
+.second_content-five div a:last-child{
+    margin-left: 15px;
+    background-color: rgb(83, 83, 2);
+}
+
+.second_content-five div a:hover{
+    background-color: red;
+    transition: .5s;
+}
+
+.section-six{
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 50px;
+    border: 1px solid white;
+}
+
+.section-six div:first-child{
+    padding: 50px;
+}
+
+.section-six div:first-child p{
+    color: rgb(116, 116, 25);
+}
+
+.section-six div:first-child h2{
+    margin: 30px 0;
+}
+
+.second_section-six img{
+    width: 400px;
+    height: 450px;
+}
